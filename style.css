@@ -149,9 +149,30 @@ a{
 	right: 10px;
 	top: 400px;
 	display: inline-block;
+}
+
+a.fbl{
+	font-weight: normal;
+	text-transform: lowercase;
 	font-family: Tahoma;
 	color: #fff;
 	font-size: 50px;
 	text-align: center;
-
 }
+ 
+ a.fbl:hover, a.fbl:active {
+	color: #fff;
+}
+
+a.head{
+	font-weight: normal;
+	font-family: Helvetica;
+	color: #327AE8;
+	font-size: 14px;
+}
+
+a:hover, a:active {
+	color: #525252;
+}
+
+
